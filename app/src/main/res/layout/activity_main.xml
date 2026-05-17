@@ -1,13 +1,18 @@
+<!-- FrameLayout raíz: permite superponer capas una encima de otra -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Contenedor que apila las teclas blancas (abajo) y las negras (encima) -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- ===== CAPA 1: TECLAS BLANCAS =====
+             Cada ImageButton ocupa el mismo espacio (weight=1) y muestra
+             la imagen de su nota musical (do, re, mi...) -->
         <LinearLayout
             android:id="@+id/whiteKeysLayout"
             android:layout_width="match_parent"
@@ -182,6 +187,11 @@
             
         </LinearLayout>
 
+        <!-- ===== CAPA 2: TECLAS NEGRAS (SOSTENIDOS) =====
+             Se superpone encima de las blancas gracias al FrameLayout padre.
+             Los <View> vacíos actúan como espaciadores para alinear cada
+             tecla negra justo entre las blancas que le corresponden.
+             El fondo es transparente para no tapar las teclas blancas. -->
         <LinearLayout
             android:id="@+id/blackKeysLayout"
             android:layout_width="match_parent"
