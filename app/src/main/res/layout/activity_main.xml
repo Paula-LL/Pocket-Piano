@@ -1,18 +1,354 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- White keys -->
+        <LinearLayout
+            android:id="@+id/whiteKeysLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#A8A8A8">
+
+            <ImageButton
+                android:id="@+id/C2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/do_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/D2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/re_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/E2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mi_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/F2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fa_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/G2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sol_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/A2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/la_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/B2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/si_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/C3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/do_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/D3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/re_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/E3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mi_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/F3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fa_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/G3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sol_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/A3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/la_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/B3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/si_note"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/C4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#A8A8A8"
+                android:scaleType="centerCrop"
+                android:src="@drawable/do_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <!-- Black keys -->
+        <LinearLayout
+            android:id="@+id/blackKeysLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="10dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.1"/>
+
+            <ImageButton
+                android:id="@+id/C2b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"/>
+
+            <ImageButton
+                android:id="@+id/D2b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.0"/>
+
+            <ImageButton
+                android:id="@+id/F2b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <ImageButton
+                android:id="@+id/G2b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <ImageButton
+                android:id="@+id/A2b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"/>
+
+            <ImageButton
+                android:id="@+id/C3b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <ImageButton
+                android:id="@+id/D3b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2"/>
+
+            <ImageButton
+                android:id="@+id/F3b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <ImageButton
+                android:id="@+id/G3b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <ImageButton
+                android:id="@+id/A3b"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1.2"
+                android:background="#000000"
+                android:elevation="4dp"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="4dp"
+                android:src="@drawable/semi_note"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2.8"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>
