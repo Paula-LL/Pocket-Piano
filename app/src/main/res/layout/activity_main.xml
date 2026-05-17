@@ -8,7 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- White keys -->
         <LinearLayout
             android:id="@+id/whiteKeysLayout"
             android:layout_width="match_parent"
@@ -180,9 +179,9 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/do_note"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+            
         </LinearLayout>
 
-        <!-- Black keys -->
         <LinearLayout
             android:id="@+id/blackKeysLayout"
             android:layout_width="match_parent"
@@ -194,7 +193,7 @@
             <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.1"/>
+                android:layout_weight="1"/>
 
             <ImageButton
                 android:id="@+id/C2b"
@@ -212,7 +211,7 @@
             <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.6"/>
+                android:layout_weight="0.5"/>
 
             <ImageButton
                 android:id="@+id/D2b"
@@ -244,7 +243,11 @@
                 android:paddingBottom="4dp"
                 android:src="@drawable/semi_note"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
 
             <ImageButton
                 android:id="@+id/G2b"
@@ -258,16 +261,20 @@
                 android:paddingBottom="4dp"
                 android:src="@drawable/semi_note"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"/>
 
             <ImageButton
                 android:id="@+id/A2b"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_marginTop="1dp"
-                android:layout_weight="1.2"
+                android:layout_weight="1"
                 android:background="#000000"
-                android:elevation="4dp"
+                android:elevation="5dp"
                 android:gravity="bottom|center_horizontal"
                 android:paddingBottom="4dp"
                 android:src="@drawable/semi_note"
@@ -291,7 +298,9 @@
                 android:src="@drawable/semi_note"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
-            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+            <View android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
 
             <ImageButton
                 android:id="@+id/D3b"
@@ -305,7 +314,10 @@
                 android:paddingBottom="4dp"
                 android:src="@drawable/semi_note"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2"/>
+
+            <View android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"/>
 
             <ImageButton
                 android:id="@+id/F3b"
@@ -319,7 +331,10 @@
                 android:paddingBottom="4dp"
                 android:src="@drawable/semi_note"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <View android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"/>
 
             <ImageButton
                 android:id="@+id/G3b"
@@ -333,7 +348,10 @@
                 android:paddingBottom="4dp"
                 android:src="@drawable/semi_note"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.6"/>
+
+            <View android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
 
             <ImageButton
                 android:id="@+id/A3b"
@@ -347,7 +365,11 @@
                 android:paddingBottom="4dp"
                 android:src="@drawable/semi_note"
                 tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2.8"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"/>
         </LinearLayout>
 
     </FrameLayout>
