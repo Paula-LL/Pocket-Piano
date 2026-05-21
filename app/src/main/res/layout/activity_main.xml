@@ -179,7 +179,7 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/do_note"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
-            
+
         </LinearLayout>
 
         <LinearLayout
